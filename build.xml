@@ -1,0 +1,7 @@
+<project name="demoAnt2" default="run">
+<target name="run" depends="compiler">
+</target>
+	<target name="compiler">
+		<javac srcdir="./src" destdir="" includeantruntime="false"></javac>
+	</target>
+</project>
